@@ -25,10 +25,12 @@ function destructivelyAddElementToEndOfArray(array,element){
 }
 
 function accessElementInArray(array,index){
-  if (array.length > index)
+  if (array.length > index){
   return array[index];
-  else if (array.length <= index)
+  }
+  else if (array.length <= index){
   return "undefined";
+  }
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array){

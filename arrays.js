@@ -15,13 +15,13 @@ function destructivelyAddElementToBeginningOfArray(array,element){
 }
 
 function addElementToEndOfArray(array,element){
-  new_array2=[...array, element]
-  return new_array2
+  new_array2=[...array, element];
+  return ;
 }
 
 function destructivelyAddElementToEndOfArray(array,element){
-  array.push(element)
-  return array
+  array.push(element);
+  return array;
 }
 
 function accessElementInArray(array,index){

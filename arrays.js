@@ -26,9 +26,9 @@ function destructivelyAddElementToEndOfArray(array,element){
 
 function accessElementInArray(array,index){
   if (array.length > index)
-  return array[index]
+  return array[index];
   else if (array.length <= index)
-  return "undefined"
+  return "undefined";
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array){
